@@ -1,0 +1,21 @@
+﻿[Script Info]
+; 本作品采用知识共享署名-非商业性使用-相同方式共享 4.0 许可协议进行许可。
+; This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+; To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
+; or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+
+; Public git repository: https://github.com/c2club/PokeMonAG
+
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 704
+PlayResY: 528
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
