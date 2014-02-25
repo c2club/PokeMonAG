@@ -1,3 +1,4 @@
+#!/usr/bin/php
 <?php
   define('HEADER_STYLE', '[V4+ Styles]');
   define('HEADER_EVENT', '[Events]');
@@ -5,7 +6,11 @@
   $data = [];
   array_shift($files);
   foreach($files as $f)
+  {
+    if(!file_exists($f))
+      die('File not found: ' . $f . PHP_EOL);
     $data[$f] = file_get_contents($f);
+  }
 
   // Read all lines from first file until HEADER_STYLE
   foreach($data as $f => &$v)
