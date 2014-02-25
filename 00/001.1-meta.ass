@@ -1,0 +1,43 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 704
+PlayResY: 528
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Hakase,SimHei,36,&H0FFFFFFF,&H0F00FFFF,&H0F444444,&H80444444,-1,0,0,0,100,100,0,0,1,1,0,2,5,5,15,1
+Style: Intro,SimHei,30,&H00FFFFFF,&H0000FFFF,&H00181818,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,20,1
+Style: Staff,SimHei,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,20,20,1
+Style: StaffEng,Century Gothic,28,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,20,20,1
+Style: OPLOGO,SimHei,40,&H00FF8000,&H0000FFFF,&H00868686,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,120,1
+Style: OPLOGOE,Century Gothic,20,&HFFC1FFFF,&H0000FFFF,&HFF000000,&HFF000000,0,0,0,0,130,100,0,0,1,1,1,8,30,30,90,1
+Style: EyeCatchLogo,SimHei,32,&H005CAF2A,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,110,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.14,0:00:03.19,Intro,,0,0,0,,{\be1\pos(340,300)\fad(200,250)\an7}这个星球上生活着\N\N不可思议的生物\N\N住在精灵球里面的宠物…\N\N简称宠物小精灵
+Dialogue: 0,0:00:03.19,0:00:06.15,Intro,,0,0,0,,{\be1\pos(340,360)\fad(200,0)\an7}现在 开始讲述少年小智\N\N和宠物小精灵们的相遇\N\N冒险和战斗经历的故事！
+
+Dialogue: 0,0:01:20.97,0:01:27.98,OPLOGO,,0,0,0,,{\fad(200,0)\frx-20\bord2\shad3\3c&H00FFFFFF&}C2星之海洋字幕组
+Dialogue: 8,0:01:20.97,0:01:27.98,OPLOGO,,0,0,0,,{\fad(200,0)\frx-20\bord3\shad0\3c&H00000000&}C2星之海洋字幕组
+
+Dialogue: 9,0:01:20.97,0:01:27.98,OPLOGO,,0,0,0,,{\fad(200,0)}{\frx-20\1c&Hff8000&\t(0,600,\1c&H3ce22e&)}{\frx-20\1c&H3ce22e&\t(1300,1350,\1c&HFFFFFF&)\t(1350,1400,\1c&H3ce22e&)}C{\r\frx-20\1c&H3ce22e&\t(1200,1250,\1c&HFFFFFF&)\t(1250,1300,\1c&H3ce22e&)}2{\r\frx-20\1c&H3ce22e&\t(1200,1250,\1c&HFFFFFF&)\t(1250,1300,\1c&H3ce22e&)}星{\r\frx-20\1c&H3ce22e&\t(1100,1150,\1c&HFFFFFF&)\t(1150,1200,\1c&H3ce22e&)}之{\r\frx-20\1c&H3ce22e&\t(1000,1050,\1c&HFFFFFF&)\t(1050,1100,\1c&H3ce22e&)}海{\r\frx-20\1c&H3ce22e&\t(900,950,\1c&HFFFFFF&)\t(950,1000,\1c&H3ce22e&)}洋{\r\frx-20\1c&H3ce22e&\t(800,850,\1c&HFFFFFF&)\t(850,900,\1c&H3ce22e&)}字{\r\frx-20\1c&H3ce22e&\t(700,750,\1c&HFFFFFF&)\t(750,800,\1c&H3ce22e&)}幕{\r\frx-20\1c&H3ce22e&\t(600,650,\1c&HFFFFFF&)\t(650,700,\1c&H3ce22e&)}组
+
+Dialogue: 0,0:01:22.97,0:01:27.98,OPLOGOE,,0,0,0,,{\r\t(1100,1200,\1a&H00&\3a&H00&)}W{\r\t(1000,1100,\1a&H00&\3a&H00&)}W{\r\t(900,1000,\1a&H00&\3a&H00&)}W.{\r\t(800,900,\1a&H00&\3a&H00&)}C{\r\t(700,800,\1a&H00&\3a&H00&)}2{\r\t(600,700,\1a&H00&\3a&H00&)}C{\r\t(500,600,\1a&H00&\3a&H00&)}L{\r\t(400,500,\1a&H00&\3a&H00&)}U{\r\t(300,400,\1a&H00&\3a&H00&)}B.{\r\t(200,300,\1a&H00&\3a&H00&)}N{\r\t(100,200,\1a&H00&\3a&H00&)}E{\r\t(0,100,\1a&H00&\3a&H00&)}T
+Dialogue: 0,0:17:27.50,0:17:31.94,EyeCatchLogo,,0,0,0,,{\move(-200,340,240,340,0,250)\frx-20\fad(150,0)}C2星之海洋字幕组
+Dialogue: 0,0:17:33.50,0:17:37.94,EyeCatchLogo,,0,0,0,,{\move(900,340,500,340,0,250)\frx-20\fad(150,0)}WWW.C2CLUB.NET
+
+Dialogue: 0,0:00:08.94,0:00:12.53,Staff,,0,0,0,,{\pos(424,184)\fad(0,270)}字 幕  {\rStaffEng}mocona
+Dialogue: 0,0:00:13.53,0:00:16.95,Staff,,0,0,0,,{\pos(85,350)\fad(330,280)}时间轴  {\rStaffEng}smnliu
+Dialogue: 0,0:00:32.05,0:00:35.04,Staff,,0,0,0,,{\pos(70,290)\fad(0,230)}校  对  {\rStaffEng}ashwan2001 superbabyXP
+Dialogue: 0,0:00:35.04,0:00:38.05,Staff,,0,0,0,,{\pos(75,290)\fad(290,0)}压  制  {\rStaffEng}MR
+Dialogue: 0,0:00:38.39,0:00:41.85,Staff,,0,0,0,,{\pos(75,330)\fad(300,270)}片  源  {\rStaffEng}Kunophil
+Dialogue: 0,0:00:54.82,0:01:01.49,Staff,,0,0,0,,{\pos(70,180)\fad(300,0)}其他制作人员  小松  天星
+Dialogue: 0,0:00:54.82,0:01:01.49,Staff,,0,0,0,,{\pos(235,217)\fad(300,0)}ドモン\N\N{\rStaffEng}\hSAPikachu{\r} 等
+Dialogue: 0,0:01:01.83,0:01:05.46,Staff,,0,0,0,,{\fad(300,300)\pos(255,300)\fs22}监 督    {\fs28}乐言
+
+Dialogue: 0,0:23:35.00,0:23:39.90,Hakase,,0,0,0,,{\fad(1000,0)\move(352,500,352,420,0,1700)}大木博士的宠物小精灵讲座
