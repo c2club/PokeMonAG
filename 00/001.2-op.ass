@@ -1,0 +1,31 @@
+﻿[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+ScaledBorderAndShadow: Yes
+PlayResX: 704
+PlayResY: 528
+Timer: 100.0000
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OPCN,Microsoft Yahei,34,&H00FFFFFF,&H0000FFFF,&H00222222,&H00444444,-1,0,0,0,100,100,2,0,1,2,0,2,5,5,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.15,0:00:08.90,OPCN,,0,0,0,,勇气凛凛  精神焕发
+Dialogue: 0,0:00:08.90,0:00:11.82,OPCN,,0,0,0,,津津有味  意气昂扬
+Dialogue: 0,0:00:11.82,0:00:17.32,OPCN,,0,0,0,,手持导航  准备完毕
+Dialogue: 0,0:00:17.32,0:00:20.20,OPCN,,0,0,0,,先发制人  切莫大意
+Dialogue: 0,0:00:20.20,0:00:22.62,OPCN,,0,0,0,,干劲满满  意气相投
+Dialogue: 0,0:00:26.54,0:00:30.96,OPCN,,0,0,0,,{\fad(0,200)}在遥远彼岸  大海的另一边
+Dialogue: 0,0:00:32.12,0:00:36.84,OPCN,,0,0,0,,{\fad(200,200)}在水静市  夕阳西下
+Dialogue: 0,0:00:38.05,0:00:43.31,OPCN,,0,0,0,,双打对战让人跃跃欲试的明天
+Dialogue: 0,0:00:43.56,0:00:48.77,OPCN,,0,0,0,,{\fad(200,0)}骑上马赫自行车向前跃进
+Dialogue: 0,0:00:50.44,0:00:55.70,OPCN,,0,0,0,,{\fad(0,200)}蠢蠢欲动  让人兴奋
+Dialogue: 0,0:00:56.41,0:01:01.49,OPCN,,0,0,0,,{\fad(200,0)}我们的梦想  绝不会长眠于此
+Dialogue: 0,0:01:01.63,0:01:07.83,OPCN,,0,0,0,,{\fad(200,0)}在新的城市
+Dialogue: 0,0:01:07.83,0:01:10.00,OPCN,,0,0,0,,有着心动的伙伴
+Dialogue: 0,0:01:10.00,0:01:16.34,OPCN,,0,0,0,,{\fad(0,200)}一起去寻找吧
+Dialogue: 0,0:01:19.10,0:01:21.56,OPCN,,0,0,0,,勇气凛凛  精神焕发
+Dialogue: 0,0:01:21.56,0:01:24.70,OPCN,,0,0,0,,{\fad(0,200)}津津有味  意气昂扬

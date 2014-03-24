@@ -9,13 +9,13 @@ YCbCr Matrix: TV.601
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Hakase,SimHei,36,&H0FFFFFFF,&H0F00FFFF,&H0F444444,&H80444444,-1,0,0,0,100,100,0,0,1,1,0,2,5,5,15,1
-Style: Intro,SimHei,30,&H00FFFFFF,&H0000FFFF,&H00181818,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,2,20,20,20,1
+Style: Hakase,Microsoft Yahei,48,&H00FFFFFF,&H0000FFFF,&H00222222,&H00222222,-1,0,0,0,100,100,0,0,1,1,0,2,5,5,15,1
+Style: Intro,Microsoft Yahei,36,&H00FFFFFF,&H0000FFFF,&H00222222,&H00000000,-1,0,0,0,100,100,2,0,1,1.5,0,2,20,20,20,1
 Style: Staff,SimHei,24,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,20,20,1
 Style: StaffEng,Century Gothic,28,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,20,20,20,1
-Style: OPLOGO,SimHei,40,&H00FF8000,&H0000FFFF,&H00868686,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,120,1
-Style: OPLOGOE,Century Gothic,20,&HFFC1FFFF,&H0000FFFF,&HFF000000,&HFF000000,0,0,0,0,130,100,0,0,1,1,1,8,30,30,90,1
-Style: EyeCatchLogo,SimHei,32,&H005CAF2A,&H0000FFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,110,1
+Style: OPLOGO,SimHei,40,&H00FF8000,&H0000FFFF,&H00868686,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,120,1
+Style: OPLOGOE,Century Gothic,20,&HFFC1FFFF,&H0000FFFF,&HFF000000,&HFF000000,0,0,0,0,130,100,0,0,1,0,0,8,30,30,90,1
+Style: EyeCatchLogo,SimHei,32,&H005CAF2A,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,30,30,110,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -40,4 +40,4 @@ Dialogue: 0,0:00:54.82,0:01:01.49,Staff,,0,0,0,,{\pos(70,180)\fad(300,0)}其他�
 Dialogue: 0,0:00:54.82,0:01:01.49,Staff,,0,0,0,,{\pos(235,217)\fad(300,0)}ドモン\N\N{\rStaffEng}\hSAPikachu{\r} 等
 Dialogue: 0,0:01:01.83,0:01:05.46,Staff,,0,0,0,,{\fad(300,300)\pos(255,300)\fs22}监 督    {\fs28}乐言
 
-Dialogue: 0,0:23:35.00,0:23:39.90,Hakase,,0,0,0,,{\fad(1000,0)\move(352,500,352,420,0,1700)}大木博士的宠物小精灵讲座
+Dialogue: 0,0:23:35.08,0:23:39.94,Hakase,,0,0,0,,{\fad(1000,0)\move(352,500,352,420,0,1700)}大木博士的宠物小精灵讲座
